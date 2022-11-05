@@ -1,30 +1,30 @@
-const Data = {
+const DealsData = {
     productItems: [
       {
         id: 1,
         discount: 50,
-        cover: "./images/flash/flash-1.png",
+        cover: require("../../assets/images/cargo-replace.jpg"),
         name: "Shoes",
         price: 100,
       },
       {
         id: 2,
         discount: 40,
-        cover: "./images/flash/flash-2.png",
+        cover: require("../../assets/images/converse.jpg"),
         name: "Watch",
         price: 20,
       },
       {
         id: 3,
         discount: 40,
-        cover: "./images/flash/flash-3.png",
+        cover: require("../../assets/images/cargo-shirts.jpg"),
         name: "Smart Mobile Black",
         price: 200,
       },
       {
         id: 4,
         discount: 40,
-        cover: "./images/flash/flash-4.png",
+        cover: require("../../assets/images/red-shirt.jpg"),
         name: "Smart Watch Black",
         price: 50,
       },
@@ -44,4 +44,4 @@ const Data = {
       },
     ],
   }
-  export default Data
+  export default DealsData
