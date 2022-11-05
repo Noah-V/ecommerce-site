@@ -112,3 +112,24 @@ input, button{
     cursor: pointer;
 }
 /*-------------Category----------------------*/
+.btn-primary{
+    background-color: #e94560;
+    padding: 13px 40px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.top{
+    margin-top: 80px;
+}
+
+.mtop{
+    margin-top: 40px;
+}
+
+.heading i{
+    color: #e94560;
+    margin: 10px;
+}
+
