@@ -1,9 +1,18 @@
 import React from 'react'
+import { Categories } from './Categories'
+import SlideCard from './SlideCard'
 
-export default function Home() {
+const Home = () => {
   return (
     <>
-        <h1>Home</h1>
+        <section className="home">
+            <div className="container d_flex">
+                <Categories/>
+                <SlideCard/> 
+            </div>
+        </section>
     </>
   )
 }
+
+export default Home

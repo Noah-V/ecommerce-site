@@ -1,10 +1,12 @@
 import React from 'react'
 import Home from '../mainpage/Home'
 
-export const Pages = () => {
+const Pages = () => {
   return (
     <>
         <Home/>
     </>
   )
 }
+
+export default Pages
